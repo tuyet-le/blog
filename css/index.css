@@ -5,3 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --main-text-color: #2F1F2B;
+    --yellow-color: #FCB677;
+    --pink-color: #EF8C86;
+    --purple-color: #685268;
+    --blue-color: #034C65; 
+}
