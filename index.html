@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/f97e9a7da6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>A Blog by Toowee</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    TL
+                </a>
+                <ul class="nav">
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#subscribe"><span>Subscribe</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-title">
+                <h1>Hey, I'm Tuyet & a frontend developer.</h1>
+                <p class="header-description">This is my online space where I share posts about my coding journey in the hopes of inspiring others.</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="blog-posts">
+        <article class="post">
+            <div class="tag learning-tag">Learning Journey</div>
+            <h2 class="post-title">100 Days of Code Journey</h2>
+            <p class="post-preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde assumenda rerum eos ratione sed, fugit consequatur ad? Voluptatem laborum dignissimos nihil et deleniti saepe quia in voluptas! Sapiente, harum!</p>
+            <a href="#">Read post</a>
+        </article>
+
+        <article class="post">
+            <div class="tag learning-tag">Learning Journey</div>
+            <h2 class="post-title">Code First: Girls Web Development Course</h2>
+            <p class="post-preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde assumenda rerum eos ratione sed, fugit consequatur ad? Voluptatem laborum dignissimos nihil et deleniti saepe quia in voluptas! Sapiente, harum!</p>
+            <a href="#">Read post</a>
+        </article>
+
+        <article class="post">
+            <div class="tag learning-tag">Learning Journey</div>
+            <h2 class="post-title">100 Days of Code Journey</h2>
+            <p class="post-preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde assumenda rerum eos ratione sed, fugit consequatur ad? Voluptatem laborum dignissimos nihil et deleniti saepe quia in voluptas! Sapiente, harum!</p>
+            <a href="#">Read post</a>
+        </article>
+
+        <button>Read older posts</button>
+    </section>
+
+    <footer>
+        <h2>Subscribe to my mailing list</h2>
+        <p>Be notified of when I post something new.</p>
+        <div class="form">
+            <form name="newsletter" action="POST" data-netlify="true">
+                <div class="field">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+                <div class="field">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+                <div>
+                    <input type="submit" class="submit" value="Subscribe">
+                </div>
+            </form>
+        </div>
+        <div class="social-media">
+            <i class="fab fa-github fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fas fa-envelope fa-2x"></i>
+        </div>
+    </footer>
+</body>
+</html>
