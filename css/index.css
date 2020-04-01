@@ -31,3 +31,42 @@ h1 {
 h2 {
     font-size: 1.5rem;
 }
+
+/* ==========
+Nav
+========== */
+.navbar {
+    background: var(--yellow-color);
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em 5em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: end;
+    list-style: none;
+}
+
+.nav li {
+    padding: 0 1em;
+}
+
+.nav a {
+    color: var(--main-text-color);
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.logo {
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
