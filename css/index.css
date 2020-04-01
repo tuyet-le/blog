@@ -13,3 +13,21 @@
     --purple-color: #685268;
     --blue-color: #034C65; 
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+h1,
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
