@@ -22,6 +22,7 @@ body {
 h1,
 h2 {
     font-family: 'Space Mono', monospace;
+    text-transform: lowercase;
 }
 
 h1 {
@@ -95,33 +96,20 @@ Nav
 /* ==========
 Header
 ========== */
-/* .header-container {
-    background: var(--yellow-color);
+.container-header {
     height: 50vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-.header-title {
-    background: var(--yellow-color);
-    padding: 0 5em;
+.title {
     margin: auto;
-    width: 60%;
     max-width: 900px;
     text-align: center;
     font-family: 'Space Mono', monospace;
 }
 
-.header-title h1 {
-    font-family: 'Space Mono', monospace;
-    text-transform: lowercase;
-}
-
 hr {
     border: 2px solid var(--blue-color);
     width: 35px;
-    outline: none;
     margin: 10px auto;
-
-} */
+}
