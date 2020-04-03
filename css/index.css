@@ -79,7 +79,17 @@ Nav
     color: var(--main-text-color);
     text-decoration: none;
     font-weight: 700;
-    letter-spacing: 2px;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-size: .65rem;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blue-color);
+    margin: 0;
 }
 
 /* ==========
