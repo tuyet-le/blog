@@ -50,6 +50,11 @@ Layout
     padding: .8em 0;
 }
 
+.container-header {
+    height: 50vh;
+    display: flex;
+}
+
 header {
     background: var(--yellow-color);
 }
@@ -96,11 +101,6 @@ Nav
 /* ==========
 Header
 ========== */
-.container-header {
-    height: 50vh;
-    display: flex;
-}
-
 .title {
     margin: auto;
     max-width: 900px;
