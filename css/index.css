@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Space+Mono:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -15,13 +15,13 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
 h1,
 h2 {
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 
 h1 {
@@ -69,4 +69,38 @@ Nav
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+/* ==========
+Header
+========== */
+.header-container {
+    background: var(--yellow-color);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-title {
+    background: var(--yellow-color);
+    padding: 0 5em;
+    margin: auto;
+    width: 60%;
+    max-width: 900px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.header-title h1 {
+    font-family: 'Space Mono', monospace;
+    text-transform: lowercase;
+}
+
+hr {
+    border: 2px solid var(--blue-color);
+    width: 35px;
+    outline: none;
+    margin: 10px auto;
+
 }
