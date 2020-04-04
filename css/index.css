@@ -200,7 +200,7 @@ footer {
 .learning-post:hover:before,
 .resources-post:hover:before,
 .motivation-post:hover:before {
-    transform: translate(2px, 2px);
+    transform: translate(3px, 3px);
 }
 
 /* ==========
