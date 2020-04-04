@@ -11,7 +11,8 @@
     --yellow-color: #FCB677;
     --pink-color: #EF8C86;
     --light-pink-hover: #FFECEA;
-    --purple-color: #685268;
+    --purple-color: #826782;
+    --light-purple-hover: #A68FA6;
     --blue-color: #034C65;
     --border-color: #E8E6E6; 
 }
@@ -66,7 +67,8 @@ Utilities
     font-weight: 600;
 }
 
-.learning-btn:before {
+.learning-btn:before,
+.resources-btn:before {
     content: "";
     position: absolute;
     top: 0;
@@ -79,8 +81,13 @@ Utilities
     transition: .5s ease-in-out;
 }
 
-.learning-btn:hover:before {
+.learning-btn:hover:before,
+.resources-btn:hover:before {
     width: 100%;
+}
+
+.resources-btn:before {
+    background: var(--purple-color);
 }
 
 
@@ -219,4 +226,16 @@ Blog
 
 .learning-tag:hover {
     background: var(--light-pink-hover);
+}
+
+.resources-tag {
+    border: .8px solid var(--purple-color);
+    color: var(--purple-color);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.resources-tag:hover {
+    background: var(--light-purple-hover);
+    color: #fff;
 }
