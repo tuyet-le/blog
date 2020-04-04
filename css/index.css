@@ -141,6 +141,19 @@ header {
     background: var(--pink-color);
 }
 
+.resources-post:before {
+    content: "";
+    position: absolute;
+    top: -10;
+    right: 20px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    border: 1px solid var(--purple-color);
+    background: var(--purple-color);
+}
+
 /* ==========
 Nav
 ========== */
