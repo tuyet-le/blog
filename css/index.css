@@ -21,6 +21,10 @@ body {
     font-size: 1rem;
 }
 
+/* ==========
+Typography
+========== */
+
 h1,
 h2 {
     font-family: 'Space Mono', monospace;
@@ -49,6 +53,7 @@ h2 {
 /* ==========
 Utilities
 ========== */
+
 .btn {
     position: relative;
     display: inline-block;
@@ -82,6 +87,7 @@ Utilities
 /* ==========
 Layout
 ========== */
+
 .container {
     width: 90%;
     max-width: 900px;
@@ -169,6 +175,7 @@ Nav
 /* ==========
 Header
 ========== */
+
 .title {
     margin: auto;
     max-width: 900px;
@@ -185,6 +192,7 @@ hr {
 /* ==========
 Blog
 ========== */
+
 .post {
     border: 1px solid var(--border-color);
     border-radius: 5px;
