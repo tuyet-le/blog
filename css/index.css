@@ -202,7 +202,12 @@ Nav
 .nav-links a {
     color: var(--main-text-color);
     text-decoration: none;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    transition: .3s ease-in-out;    
+}
+
+.nav-links a:hover {
+    color: #FAFAFA;
 }
 
 .logo {
