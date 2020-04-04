@@ -50,15 +50,15 @@ h2 {
 Utilities
 ========== */
 .btn {
+    position: relative;
+    display: inline-block;
+    padding: .4em 1em;
+    z-index: 1;
     color: var(--main-text-color);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-radius: 5px;
-    padding: .4em 1em;
     font-weight: 600;
-    display: relative;
-    display: inline-block;
 }
 
 .learning-btn:before {
