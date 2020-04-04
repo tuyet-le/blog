@@ -146,6 +146,7 @@ header {
     border-radius: 5px;
     border: 1px solid var(--pink-color);
     background: var(--pink-color);
+    transition: .5s ease-in-out;
 }
 
 .resources-post:before {
@@ -159,6 +160,7 @@ header {
     border-radius: 5px;
     border: 1px solid var(--purple-color);
     background: var(--purple-color);
+    transition: .5s ease-in-out;
 }
 
 .motivation-post:before {
@@ -172,6 +174,14 @@ header {
     border-radius: 5px;
     border: 1px solid var(--blue-color);
     background: var(--blue-color);
+    transition: .5s ease-in-out;
+}
+
+
+.learning-post:hover:before,
+.resources-post:hover:before,
+.motivation-post:hover:before {
+    transform: translate(2px, 2px);
 }
 
 /* ==========
