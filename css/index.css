@@ -139,7 +139,8 @@ Layout
     display: flex;
 }
 
-header {
+header,
+footer {
     background: var(--yellow-color);
 }
 
@@ -320,5 +321,5 @@ Blog
 .prev-posts {
     display: flex;
     justify-content: flex-end;
-    margin-top: 3em;
+    margin: 3em 0;
 }
