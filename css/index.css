@@ -9,6 +9,7 @@
 :root {
     --main-text-color: #2F1F2B;
     --yellow-color: #FCB677;
+    --dark-yellow-hover: #FA8F2E;
     --pink-color: #EF8C86;
     --light-pink-hover: #FFECEA;
     --purple-color: #826782;
@@ -96,6 +97,23 @@ Utilities
 
 .motivation-btn:before {
     background: var(--blue-color);
+}
+
+.prev-posts-btn {
+    background: var(--yellow-color);
+    border: var(--yellow-color);
+    border-radius: 10px;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 1em 1.4em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.prev-posts-btn:hover {
+    background: var(--dark-yellow-hover);
 }
 
 /* ==========
@@ -297,4 +315,10 @@ Blog
 
 .motivation-tag:hover {
     background: var(--light-blue-hover);
+}
+
+.prev-posts {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3em;
 }
