@@ -40,6 +40,24 @@ h2 {
 }
 
 /* ==========
+Utilities
+========== */
+.btn {
+    color: var(--main-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: .4em 1em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.learning-btn {
+    border: .8px solid var(--pink-color);
+    background: var(--pink-color);
+}
+
+/* ==========
 Layout
 ========== */
 .container {
