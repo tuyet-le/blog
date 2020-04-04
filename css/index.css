@@ -46,16 +46,31 @@ Utilities
     color: var(--main-text-color);
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 1px;
     border-radius: 5px;
     padding: .4em 1em;
-    color: #fff;
     font-weight: 600;
+    position: relative;
+    display: inline-block;
 }
 
-.learning-btn {
-    border: .8px solid var(--pink-color);
+.learning-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     background: var(--pink-color);
+    border-radius: 10px;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+    transition: .5s ease-in-out;
 }
+
+.learning-btn:hover:before {
+    width: 100%;
+}
+
 
 /* ==========
 Layout
@@ -155,7 +170,6 @@ Blog
     padding: 1.2em;
     line-height: 1.7;
 }
-
 
 .tag {
     display: inline;
