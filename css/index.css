@@ -13,7 +13,8 @@
     --light-pink-hover: #FFECEA;
     --purple-color: #826782;
     --light-purple-hover: #A68FA6;
-    --blue-color: #034C65;
+    --blue-color: #05779e;
+    --light-blue-hover: #D9E3E9;
     --border-color: #E8E6E6; 
 }
 
@@ -68,7 +69,8 @@ Utilities
 }
 
 .learning-btn:before,
-.resources-btn:before {
+.resources-btn:before,
+.motivation-btn:before {
     content: "";
     position: absolute;
     top: 0;
@@ -82,7 +84,8 @@ Utilities
 }
 
 .learning-btn:hover:before,
-.resources-btn:hover:before {
+.resources-btn:hover:before,
+.motivation-btn:hover:before {
     width: 100%;
 }
 
@@ -90,6 +93,9 @@ Utilities
     background: var(--purple-color);
 }
 
+.motivation-btn:before {
+    background: var(--blue-color);
+}
 
 /* ==========
 Layout
@@ -152,6 +158,19 @@ header {
     border-radius: 5px;
     border: 1px solid var(--purple-color);
     background: var(--purple-color);
+}
+
+.motivation-post:before {
+    content: "";
+    position: absolute;
+    top: -10;
+    right: 20px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    border: 1px solid var(--blue-color);
+    background: var(--blue-color);
 }
 
 /* ==========
@@ -251,4 +270,15 @@ Blog
 .resources-tag:hover {
     background: var(--light-purple-hover);
     color: #fff;
+}
+
+.motivation-tag {
+    border: .8px solid var(--blue-color);
+    color: var(--blue-color);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.motivation-tag:hover {
+    background: var(--light-blue-hover);
 }
