@@ -132,3 +132,18 @@ Blog
     padding: 1.2em;
     line-height: 1.7;
 }
+
+
+.tag {
+    display: inline;
+    border-radius: 20px;
+    padding: .3em .7em;
+    font-size: .8rem;
+    text-transform: lowercase;
+}
+
+.learning-tag {
+    border: .8px solid var(--pink-color);
+    color: var(--pink-color);
+    cursor: pointer;
+}
