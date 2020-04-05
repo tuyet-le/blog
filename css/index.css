@@ -100,8 +100,7 @@ Utilities
 }
 
 .prev-posts-btn {
-    background: var(--yellow-color);
-    border: var(--yellow-color);
+    border: #E8E6E6;
     border-radius: 10px;
     color: var(--main-text-color);
     text-transform: uppercase;
@@ -113,7 +112,7 @@ Utilities
 }
 
 .prev-posts-btn:hover {
-    background: var(--dark-yellow-hover);
+    background: var(--yellow-color);
 }
 
 /* ==========
