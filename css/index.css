@@ -343,6 +343,33 @@ Blog
 /* ==========
 Footer
 ========== */
+@keyframes shake {
+    0% {
+        transform: translate3d(0, 0, 0);
+       }
+    
+       10%, 90% {
+           transform: translate3d(-1px, 0, 0);
+       }
+    
+       20%, 30%, 80% {
+           transform: translate3d(2px, 0, 0);
+       }
+    
+       50% {
+           transform: translate3d(-3px, 0, 0);
+       }
+    
+       40%, 60%, 70% {
+           transform: translate3d(3px, 0, 0);
+       }
+}
+
+.fa-envelope:hover,
+.social-media>a:hover {
+    animation: shake .5s;
+    animation-iteration-count: infinte;
+}
 input[type=text],
 input[type=email],
 input[type=submit] {
