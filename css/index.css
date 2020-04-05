@@ -199,11 +199,11 @@ footer {
     transition: .5s ease-in-out;
 }
 
-
+/* animate the colored boxes behind blog cards */
 .learning-post:hover:before,
 .resources-post:hover:before,
 .motivation-post:hover:before {
-    transform: translate(3px, 3px);
+    transform: translate(5px, 5px);
 }
 
 .container-footer {
