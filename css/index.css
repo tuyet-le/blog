@@ -366,3 +366,19 @@ input[type=submit]:hover {
     background: #E64D44;
     border: #E64D44;
 }
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+.social-media i {
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.social-media i:hover {
+    color: var(--blue-color);
+}
