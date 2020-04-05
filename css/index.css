@@ -245,6 +245,8 @@ Nav
 
 .nav-links a:hover {
     color: #FAFAFA;
+    border-bottom: 1px solid #fff;
+    padding-bottom: .3em;
 }
 
 .logo {
