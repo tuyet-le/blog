@@ -212,6 +212,13 @@ footer {
     width: 60%;
 }
 
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
 /* ==========
 Nav
 ========== */
@@ -365,13 +372,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background: #E64D44;
     border: #E64D44;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 1em;
 }
 
 .social-media a {
