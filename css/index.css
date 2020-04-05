@@ -294,7 +294,8 @@ hr {
 /* ==========
 Blog
 ========== */
-.first-header hr {
+.first-header hr,
+.container-footer hr {
     border: 2px solid #000;
     width: 35px;
     margin: 10px auto;
