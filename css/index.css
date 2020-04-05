@@ -210,7 +210,8 @@ footer {
 .container-footer {
     padding: 2em 0;
     text-align: center;
-    width: 60%;
+    width: 70%;
+    max-width: 540px;
 }
 
 .social-media {
