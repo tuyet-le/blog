@@ -203,6 +203,11 @@ footer {
     transform: translate(3px, 3px);
 }
 
+.container-footer {
+    padding: 2em 0;
+    text-align: center;
+}
+
 /* ==========
 Nav
 ========== */
