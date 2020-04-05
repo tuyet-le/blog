@@ -374,6 +374,10 @@ input[type=submit]:hover {
     margin-top: 1em;
 }
 
+.social-media a {
+    color: var(--main-text-color);
+}
+
 .social-media i {
     cursor: pointer;
     transition: .3s ease-out;
