@@ -254,7 +254,8 @@ Nav
 }
 
 .subtitle {
-    font-size: .65rem;
+    font-size: .62rem;
+    font-weight: 700;
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
     text-align: center;
