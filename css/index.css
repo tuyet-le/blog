@@ -139,8 +139,8 @@ Layout
 }
 
 .container-header {
-    height: 50vh;
     display: flex;
+    padding-bottom: 2em;
 }
 
 header,
