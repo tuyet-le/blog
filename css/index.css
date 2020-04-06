@@ -142,12 +142,12 @@ Layout
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: .8em 0;
+    padding: 2em 0;
 }
 
 .container-header {
     display: flex;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 header,
@@ -215,7 +215,7 @@ footer {
 }
 
 .container-footer {
-    padding: 2em 0;
+    padding: 3em 0;
     text-align: center;
     width: 70%;
     max-width: 540px;
