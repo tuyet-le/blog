@@ -113,13 +113,17 @@ Utilities
 .prev-posts-btn {
     border: #E8E6E6;
     border-radius: 10px;
-    color: var(--main-text-color);
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 1em 1.4em;
     cursor: pointer;
     transition: .3s ease-in-out;
+}
+
+.prev-posts-btn a {
+    color: var(--main-text-color);
+    text-decoration: none;
 }
 
 .prev-posts-btn:hover {
