@@ -65,6 +65,16 @@ h2 {
     margin-bottom: 1em;
 }
 
+a {
+    color: var(--purple-color);
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+a:hover {
+    color: var(--main-text-color);
+}
+
 /* ==========
 Utilities
 ========== */
@@ -234,6 +244,11 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 1em;
+}
+
+li {
+    margin-left: 1em;
+    padding-left: .8em;
 }
 
 /* ==========
