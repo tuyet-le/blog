@@ -89,16 +89,6 @@ Blog
     background: var(--light-blue-hover);
 }
 
-.prev-posts {
-    display: flex;
-    justify-content: flex-end;
-    margin: 3em auto;
-}
-
-.post {
-    line-height: 1.7;
-}
-
 /* ==========
 Footer
 ========== */
