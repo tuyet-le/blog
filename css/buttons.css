@@ -1,0 +1,60 @@
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: .4em 1em;
+    z-index: 1;
+    color: var(--main-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.learning-btn:before,
+.resources-btn:before,
+.motivation-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--pink-color);
+    border-radius: 10px;
+    width: 10px;
+    height: 100%;
+    z-index: -1;
+    transition: .5s ease-in-out;
+}
+
+.learning-btn:hover:before,
+.resources-btn:hover:before,
+.motivation-btn:hover:before {
+    width: 100%;
+}
+
+.resources-btn:before {
+    background: var(--purple-color);
+}
+
+.motivation-btn:before {
+    background: var(--blue-color);
+}
+
+.prev-posts-btn {
+    border: #E8E6E6;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 1em 1.4em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.prev-posts-btn a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.prev-posts-btn:hover {
+    background: var(--yellow-color);
+}
