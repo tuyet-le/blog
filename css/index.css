@@ -251,10 +251,10 @@ footer {
     margin-top: 1em;
 }
 
-li {
+/*li {
     margin-left: 2em;
     padding: 0 0 .7em 1em;
-}
+}*/
 
 /* About Me Page */
 .container-about {
@@ -325,6 +325,18 @@ Nav
     text-align: center;
     color: var(--blue-color);
     margin: 0;
+}
+
+@media (max-width: 320px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .nav-links li {
+        padding-bottom: .4em;
+    }
 }
 
 /* ==========
