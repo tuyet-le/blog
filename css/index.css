@@ -270,6 +270,17 @@ li {
     box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 670px) {
+    .container-about {
+        flex-direction: column;
+    }
+
+    .bio h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
 /* ==========
 Nav
 ========== */
