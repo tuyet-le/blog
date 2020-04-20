@@ -28,7 +28,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 3em;
-    margin-top: 2.5em;
+    margin: 2.5em auto 3.5em;
 }
 
 .blog-post {
