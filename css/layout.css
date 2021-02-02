@@ -1,207 +1,207 @@
 /* Default style for all containers */
 .container {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1em;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 .container-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
 }
 
 .container-header {
-    display: flex;
-    padding-bottom: 3em;
+  display: flex;
+  padding-bottom: 3em;
 }
 
 header,
 footer {
-    background: var(--yellow-color);
+  background: var(--yellow-color);
 }
 
 .container-blog {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 3em;
-    margin: 2.5em auto 3.5em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3em;
+  margin: 2.5em auto 3.5em;
 }
 
 .blog-post {
-    position: relative;
+  position: relative;
 }
 
 .container-blog-post {
-    padding: 2em 0;
+  padding: 2em 0;
 }
 
 /* Shadow behind blog cards */
 .learning-post:before {
-    content: "";
-    position: absolute;
-    top: -10;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    border-radius: 5px;
-    border: 1px solid var(--pink-color);
-    background: var(--pink-color);
-    transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  top: -10;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 5px;
+  border: 1px solid var(--pink-color);
+  background: var(--pink-color);
+  transition: 0.5s ease-in-out;
 }
 
 .resources-post:before {
-    content: "";
-    position: absolute;
-    top: -10;
-    right: 20px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    border-radius: 5px;
-    border: 1px solid var(--purple-color);
-    background: var(--purple-color);
-    transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  top: -10;
+  right: 20px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 5px;
+  border: 1px solid var(--purple-color);
+  background: var(--purple-color);
+  transition: 0.5s ease-in-out;
 }
 
 .motivation-post:before {
-    content: "";
-    position: absolute;
-    top: -10;
-    right: 20px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    border-radius: 5px;
-    border: 1px solid var(--blue-color);
-    background: var(--blue-color);
-    transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  top: -10;
+  right: 20px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 5px;
+  border: 1px solid var(--blue-color);
+  background: var(--blue-color);
+  transition: 0.5s ease-in-out;
 }
 
 /* Animate the shadows behind blog cards */
 .learning-post:hover:before,
 .resources-post:hover:before,
 .motivation-post:hover:before {
-    transform: translate(5px, 5px);
+  transform: translate(5px, 5px);
 }
 
 /* Nav */
 .nav-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 15px;
 }
 
 .nav-links li {
-    padding: 0 1em;
+  padding: 0 1em;
 }
 
 .nav-links a {
-    color: var(--main-text-color);
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: .3s ease-in-out;    
+  color: var(--main-text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-links a:hover {
-    color: #FAFAFA;
-    border-bottom: 1px solid #fff;
-    padding-bottom: .3em;
+  color: #fafafa;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0.3em;
 }
 
 .logo {
-    color: var(--main-text-color);
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.4rem;
-    letter-spacing: 3px;
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
 }
 
 .subtitle {
-    font-size: .62rem;
-    font-weight: 700;
-    font-family: 'Space Mono', monospace;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--blue-color);
-    margin: 0;
+  font-size: 0.62rem;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--blue-color);
+  margin: 0;
 }
 
 /* Footer */
 .container-footer {
-    padding: 3em 0 1.8em;
-    text-align: center;
-    line-height: 1.7;
-    width: 70%;
-    max-width: 540px;
+  padding: 3em 0 1.8em;
+  text-align: center;
+  line-height: 1.7;
+  width: 70%;
+  max-width: 540px;
 }
 
 .social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1em;
 }
 
 .credit {
-    text-align: center;
-    font-size: .7rem;
-    padding-bottom: .7em;
+  text-align: center;
+  font-size: 0.7rem;
+  padding-bottom: 0.7em;
 }
 
 /* About Me Page */
 .container-about {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 2.5em auto;
-    line-height: 1.7;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2.5em auto;
+  line-height: 1.7;
 }
 
 .profile-img {
-    width: 200px;
-    border-radius: 10px;
-    margin-right: 2em;
-    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4);
+  width: 200px;
+  border-radius: 10px;
+  margin: 1.2em 2em 0 0;
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.4);
 }
 
 /* Blog post page */
 .post {
-    line-height: 1.7;
-    padding: 2em 0;
+  line-height: 1.7;
+  padding: 2em 0;
 }
 
 .list-item {
-    padding-left: 1em;
-    margin-left: 2em;
+  padding-left: 1em;
+  margin-left: 2em;
 }
 
 .twitter-tweet {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* Media Queries */
 @media (max-width: 670px) {
-    .container-about {
-        flex-direction: column;
-    }
+  .container-about {
+    flex-direction: column;
+  }
 
-    .bio h1 {
-        font-size: 2.2rem;
-    }
+  .bio h1 {
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 320px) {
-    .nav-links {
-        flex-direction: column;
-        text-align: center;
-        padding-left: 0;
-    }
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+  }
 
-    .nav-links li {
-        padding-bottom: .4em;
-    }
+  .nav-links li {
+    padding-bottom: 0.4em;
+  }
 }

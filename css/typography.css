@@ -1,53 +1,52 @@
-
 h1,
 h2,
 h3 {
-    font-family: 'Space Mono', monospace;
-    text-transform: lowercase;
+  font-family: "Space Mono", monospace;
+  text-transform: lowercase;
 }
 
 h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 .blog-title,
 .bio h1 {
-    font-size: 2.6rem;
+  font-size: 2.6rem;
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-top: .3em;
+  font-size: 1.8rem;
+  margin-top: 0.3em;
 }
 
 .latest-header {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-top: 2em;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2em;
 }
 
 .post-preview {
-    margin-bottom: 1.3em;
+  margin-bottom: 1.3em;
 }
 
 .date {
-    font-size: .8rem;
-    color: #DAD2CB;
-    margin-bottom: .6em;
+  font-size: 0.8rem;
+  color: #dad2cb;
+  margin-bottom: 0.6em;
 }
 
 .subscribe-blurb {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 a {
-    color: var(--purple-color);
-    text-decoration: none;
-    transition: .2s ease;
+  color: var(--purple-color);
+  text-decoration: none;
+  transition: 0.2s ease;
 }
 
 a:hover {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
 }
 
 /* ==========
@@ -55,14 +54,14 @@ Header
 ========== */
 
 .title {
-    margin: auto;
-    max-width: 900px;
-    text-align: center;
-    font-family: 'Space Mono', monospace;
+  margin: auto;
+  max-width: 900px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
 }
 
 hr {
-    border: 2px solid #fff;
-    width: 35px;
-    margin: 10px auto;
+  border: 2px solid #fff;
+  width: 35px;
+  margin: 10px auto;
 }
