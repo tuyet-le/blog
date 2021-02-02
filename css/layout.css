@@ -175,12 +175,29 @@ footer {
 }
 
 .list-item {
-  padding-left: 1em;
+  padding: 0 0.8em 1em;
   margin-left: 2em;
 }
 
 .twitter-tweet {
   margin: 0 auto;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+figure > img {
+  width: 100%;
+  padding-top: 1.5em;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-bottom: 1.5em;
 }
 
 /* Media Queries */

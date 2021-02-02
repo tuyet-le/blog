@@ -1,6 +1,7 @@
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Space Mono", monospace;
   text-transform: lowercase;
 }
@@ -17,6 +18,10 @@ h1 {
 h2 {
   font-size: 1.8rem;
   margin-top: 0.3em;
+}
+
+h3 {
+  padding-bottom: 0.5em;
 }
 
 .latest-header {
@@ -47,6 +52,15 @@ a {
 
 a:hover {
   color: var(--main-text-color);
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quote > p {
+  font-size: 1.2rem;
+  font-family: "EB Garamond", serif;
 }
 
 /* ==========
