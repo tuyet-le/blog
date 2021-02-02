@@ -45,13 +45,14 @@ h3 {
 }
 
 a {
-  color: var(--purple-color);
+  color: var(--blue-color);
+  font-weight: 700;
   text-decoration: none;
   transition: 0.2s ease;
 }
 
 a:hover {
-  color: var(--main-text-color);
+  color: var(--pink-color);
 }
 
 .quote {
